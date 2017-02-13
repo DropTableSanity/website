@@ -1,4 +1,7 @@
-ul {
+
+/* CSS classes for horizontal site directory */
+
+ul.directory {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -7,12 +10,12 @@ ul {
 	
 }
 
-li {
+li.directory {
 	float: left;
 	
 }
 
-li a{
+li.directory a.directory{
 	display: block;
 	color: white;
 	padding: 14px 16px;
@@ -21,18 +24,44 @@ li a{
 	
 }
 
-.active {
-	background-color: blue;
-	color: white;
-	
-}
-
-li a:hover {
+.directory.active {
 	background-color: black;
 	color: white;
 	
 }
 
+li.directory:hover a.directory:hover {
+	background-color: black;
+	color: white;
+	
+}
+
+/* CSS classes for vertical navigation bars. Based on the horizontal site directory above */
+
+ul.vertical {
+    background-color: gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    
+}
+
+
+li.vertical a.vertical {
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: gray;
+    padding : 14px 16px;
+    
+}
+
+li.vertical:hover a.vertical:hover {
+    background-color: black;
+    color: white;
+    
+}
 
 /* my attempt at a dropdown menu. Doesnt work, here be Dragons */
 .dropdown {
