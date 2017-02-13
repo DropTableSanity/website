@@ -1,0 +1,52 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+	overflow: hidden;
+	
+}
+
+li {
+	float: left;
+	
+}
+
+li a{
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none:
+	
+}
+
+.active {
+	background-color: blue;
+	color: white;
+	
+}
+
+li a:hover {
+	background-color: black;
+	color: white;
+	
+}
+
+
+/* my attempt at a dropdown menu. Doesnt work, here be Dragons */
+.dropdown {
+	position: relative;
+	display: inline-block;
+	
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+    background-color: gray;
+
+}
+
+
+
