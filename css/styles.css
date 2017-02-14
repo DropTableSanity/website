@@ -21,9 +21,9 @@ li.directory a.directory{
 	padding: 14px 16px;
 	text-align: center;
 	text-decoration: none;
-        border-color: black;
-        border-style: solid;
-        border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
 	
 }
 
@@ -75,6 +75,7 @@ li.vertical:hover a.vertical:hover {
     left: 30px;
     border: 3px;
     width: 80%;
+	font: 15px arial, sans-sarif;
 
 }
 
@@ -83,17 +84,37 @@ li.vertical:hover a.vertical:hover {
 .Footer {
     background-color: gray;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    float: left;
+    width: 100%;
+    position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
     
+}
+
+/* Fixed Notification Window */
+
+.Fixed_Notification {
+	position: fixed;
+	top: 2%;
+	right: 2%;
+	color: red;
+	border: 1px solid;
+	
+}
+
+/* Main container */
+
+.Main_Container {
+	background-color : #A9A9A9;
+	
 }
 
 /* my attempt at a dropdown menu. Doesnt work, here be Dragons */
 .dropdown {
     position: relative;
     display: inline-block;
+	background-color: gray;
 	
 }
 
