@@ -74,20 +74,32 @@ li.vertical:hover a.vertical:hover {
     position: relative;
     left: 30px;
     border: 3px;
-    width: 40%;
+    width: 80%;
 
+}
+
+/* Footer area class */
+
+.Footer {
+    background-color: gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    float: left;
+    
 }
 
 /* my attempt at a dropdown menu. Doesnt work, here be Dragons */
 .dropdown {
-	position: relative;
-	display: inline-block;
+    position: relative;
+    display: inline-block;
 	
 }
 
 .dropdown-content {
-	display: none;
-	position: absolute;
+    display: none;
+    position: absolute;
     background-color: gray;
 
 }
